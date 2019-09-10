@@ -1,9 +1,34 @@
 apiVersion: v1
 entries:
+  hello-helm:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2019-09-10T17:03:41.443385884Z"
+    description: Sample helm chart for study
+    digest: 421f28fc2bcc6df798218b2f6a4994c52194470bb30287e4f790d71a0961edb0
+    engine: gotpl
+    home: https://github.com/happycloudpak/helm-charts
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - hello
+    - sample
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: hiondal@gmail.com
+      name: HaeKyung Lee
+    - email: happycloudpak@gmail.com
+      name: HappyCloudPak
+    name: hello-helm
+    sources:
+    - https://github.com/happycloudpak/helm-charts/tree/master/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - hello-helm-0.1.0.tgz
+    version: 0.1.0
   mariadb:
   - apiVersion: v1
     appVersion: 10.3.17
-    created: "2019-09-10T13:38:23.731933256Z"
+    created: "2019-09-10T17:03:41.445848077Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software. Highly
@@ -31,7 +56,7 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-09-10T13:38:23.736628173Z"
+    created: "2019-09-10T17:03:41.448086433Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -57,11 +82,11 @@ entries:
   starthelm:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-09-10T13:38:23.736984181Z"
+    created: "2019-09-10T17:03:41.44843289Z"
     description: Basic sample chart
     digest: d715448d79d847cff94fa9851eb4443ed1595d28c5251be0aedd7a6c39bdef50
     name: starthelm
     urls:
     - starthelm-0.1.0.tgz
     version: 0.1.0
-generated: "2019-09-10T13:38:23.729788602Z"
+generated: "2019-09-10T17:03:41.437928654Z"
