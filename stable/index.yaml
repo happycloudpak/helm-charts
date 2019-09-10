@@ -3,7 +3,7 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-09-10T12:35:25.871725365Z"
+    created: "2019-09-10T12:41:21.593678882Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -26,4 +26,4 @@ entries:
     urls:
     - redis-9.1.7.tgz
     version: 9.1.7
-generated: "2019-09-10T12:35:25.86835091Z"
+generated: "2019-09-10T12:41:21.590727087Z"
