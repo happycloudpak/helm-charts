@@ -3,7 +3,7 @@ entries:
   hello-helm:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-09-16T15:05:16.417771809Z"
+    created: "2019-09-16T18:15:54.409750718Z"
     description: Sample helm chart for study
     digest: 421f28fc2bcc6df798218b2f6a4994c52194470bb30287e4f790d71a0961edb0
     engine: gotpl
@@ -25,10 +25,35 @@ entries:
     urls:
     - hello-helm-0.1.0.tgz
     version: 0.1.0
+  login-api:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2019-09-16T18:15:54.410315385Z"
+    description: login-api chart
+    digest: ac9e08b6316447e873f1d585ee18954581258155ece12eb436a44e70b3e499fc
+    engine: gotpl
+    home: https://github.com/happycloudpak/helm-charts
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - login
+    - login-api
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: hiondal@gmail.com
+      name: HaeKyung Lee
+    - email: happycloudpak@gmail.com
+      name: HappyCloudPak
+    name: login-api
+    sources:
+    - https://github.com/happycloudpak/helm-charts/tree/master/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - login-api-0.1.0.tgz
+    version: 0.1.0
   mariadb:
   - apiVersion: v1
     appVersion: 10.3.17
-    created: "2019-09-16T15:05:16.422184339Z"
+    created: "2019-09-16T18:15:54.411727964Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software. Highly
@@ -56,7 +81,7 @@ entries:
   mongodb:
   - apiVersion: v1
     appVersion: 4.0.12
-    created: "2019-09-16T15:05:16.423930751Z"
+    created: "2019-09-16T18:15:54.413090475Z"
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
       applications.
@@ -83,7 +108,7 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-09-16T15:05:16.426336299Z"
+    created: "2019-09-16T18:15:54.414810359Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -109,11 +134,11 @@ entries:
   starthelm:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-09-16T15:05:16.426661076Z"
+    created: "2019-09-16T18:15:54.415120902Z"
     description: Basic sample chart
     digest: d715448d79d847cff94fa9851eb4443ed1595d28c5251be0aedd7a6c39bdef50
     name: starthelm
     urls:
     - starthelm-0.1.0.tgz
     version: 0.1.0
-generated: "2019-09-16T15:05:16.416022233Z"
+generated: "2019-09-16T18:15:54.408533258Z"
