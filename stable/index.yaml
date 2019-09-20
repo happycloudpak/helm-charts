@@ -3,7 +3,7 @@ entries:
   hello-helm:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-09-20T12:39:30.372097477Z"
+    created: "2019-09-20T12:51:30.993167093Z"
     description: Sample helm chart for study
     digest: 421f28fc2bcc6df798218b2f6a4994c52194470bb30287e4f790d71a0961edb0
     engine: gotpl
@@ -28,7 +28,7 @@ entries:
   login-api:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-09-20T12:39:30.376220432Z"
+    created: "2019-09-20T12:51:30.996156809Z"
     description: login-api chart
     digest: cf6c89dbb0e746bb8226fe60f42a16c4ac58e089fdd30259c6cd391cd5066384
     engine: gotpl
@@ -53,7 +53,7 @@ entries:
   mariadb:
   - apiVersion: v1
     appVersion: 10.3.17
-    created: "2019-09-20T12:39:30.37821424Z"
+    created: "2019-09-20T12:51:30.998298263Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software. Highly
@@ -81,11 +81,11 @@ entries:
   mongodb:
   - apiVersion: v1
     appVersion: 4.0.12
-    created: "2019-09-20T12:39:30.379612103Z"
+    created: "2019-09-20T12:51:31.001136101Z"
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
       applications.
-    digest: 2c308244555e8cb9a8a42190b51bead246372404c31a1852e7cbaea0edbbe1e1
+    digest: 833df6dc0190ffae3360435a2f26652642d79dc2ca2c333f68c2655362ffcaa9
     engine: gotpl
     home: https://mongodb.org
     icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
@@ -108,7 +108,7 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-09-20T12:39:30.381314712Z"
+    created: "2019-09-20T12:51:31.003106123Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -134,11 +134,11 @@ entries:
   starthelm:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-09-20T12:39:30.381605768Z"
+    created: "2019-09-20T12:51:31.003458415Z"
     description: Basic sample chart
     digest: d715448d79d847cff94fa9851eb4443ed1595d28c5251be0aedd7a6c39bdef50
     name: starthelm
     urls:
     - starthelm-0.1.0.tgz
     version: 0.1.0
-generated: "2019-09-20T12:39:30.371484386Z"
+generated: "2019-09-20T12:51:30.992198921Z"
