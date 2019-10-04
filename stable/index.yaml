@@ -3,7 +3,7 @@ entries:
   db-mongodb:
   - apiVersion: v1
     appVersion: 4.0.12
-    created: "2019-10-04T15:34:30.157027385Z"
+    created: "2019-10-04T15:37:36.857940251Z"
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
       applications. changes- mongodb-setup-scripts.yaml-change script by hklee
@@ -30,7 +30,7 @@ entries:
   db-mysql:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-10-04T15:34:30.15771044Z"
+    created: "2019-10-04T15:37:36.858697107Z"
     description: MySQL chart for bbs
     digest: 1047485884a5633f3a562f388d752dab847d83a2d72ad8372300e9fa61a3e407
     engine: gotpl
@@ -54,7 +54,7 @@ entries:
   hello-helm:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-10-04T15:34:30.158234316Z"
+    created: "2019-10-04T15:37:36.859236544Z"
     description: Sample helm chart for study
     digest: 421f28fc2bcc6df798218b2f6a4994c52194470bb30287e4f790d71a0961edb0
     engine: gotpl
@@ -79,9 +79,9 @@ entries:
   login-api:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-10-04T15:34:30.160177946Z"
+    created: "2019-10-04T15:37:36.861181383Z"
     description: login-api chart
-    digest: 5cf29a09efc2d84b68963e51c2f8bdf08f73b440e0696048e0adf051a8db5fa1
+    digest: b0fad12df53ed4e791ff934fd0e3be2f96ced9564e213eac022ce119a5a7939d
     engine: gotpl
     home: https://github.com/happycloudpak/helm-charts
     icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
@@ -104,7 +104,7 @@ entries:
   mariadb:
   - apiVersion: v1
     appVersion: 10.3.17
-    created: "2019-10-04T15:34:30.16145028Z"
+    created: "2019-10-04T15:37:36.86239784Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software. Highly
@@ -132,7 +132,7 @@ entries:
   mongodb:
   - apiVersion: v1
     appVersion: 4.0.12
-    created: "2019-10-04T15:34:30.163079225Z"
+    created: "2019-10-04T15:37:36.864098134Z"
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
       applications. changes- mongodb-setup-scripts.yaml-change script by hklee
@@ -159,7 +159,7 @@ entries:
   mvp-product:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-10-04T15:34:30.163934029Z"
+    created: "2019-10-04T15:37:36.864881911Z"
     description: MVP product chart
     digest: 865679ae402c12baea0d4a17d5da88ac7e5182b236ae05defcc4e25f34852581
     engine: gotpl
@@ -184,7 +184,7 @@ entries:
   mvp-sample-front:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-10-04T15:34:30.164431064Z"
+    created: "2019-10-04T15:37:36.865390853Z"
     description: MVP sample front
     digest: b39253f79f2ea821ed6a070edafcbc29aec5716bbcef698c0c3134e7b9535eed
     engine: gotpl
@@ -210,7 +210,7 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-10-04T15:34:30.166916572Z"
+    created: "2019-10-04T15:37:36.867952563Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -236,11 +236,11 @@ entries:
   starthelm:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-04T15:34:30.167358128Z"
+    created: "2019-10-04T15:37:36.868380683Z"
     description: Basic sample chart
     digest: d715448d79d847cff94fa9851eb4443ed1595d28c5251be0aedd7a6c39bdef50
     name: starthelm
     urls:
     - starthelm-0.1.0.tgz
     version: 0.1.0
-generated: "2019-10-04T15:34:30.153762295Z"
+generated: "2019-10-04T15:37:36.855254195Z"
