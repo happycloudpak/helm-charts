@@ -3,7 +3,7 @@ entries:
   db-mysql:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-10-04T13:49:38.66014866Z"
+    created: "2019-10-04T14:04:20.672532926Z"
     description: MySQL chart for bbs
     digest: 1047485884a5633f3a562f388d752dab847d83a2d72ad8372300e9fa61a3e407
     engine: gotpl
@@ -27,7 +27,7 @@ entries:
   hello-helm:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-10-04T13:49:38.661085827Z"
+    created: "2019-10-04T14:04:20.673386528Z"
     description: Sample helm chart for study
     digest: 421f28fc2bcc6df798218b2f6a4994c52194470bb30287e4f790d71a0961edb0
     engine: gotpl
@@ -52,7 +52,7 @@ entries:
   login-api:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-10-04T13:49:38.664349549Z"
+    created: "2019-10-04T14:04:20.676022451Z"
     description: login-api chart
     digest: f65ed7f4bdba5982d2e7a5be230e170335f6f102ddbaa5a0fd68cbff0196dbcb
     engine: gotpl
@@ -77,7 +77,7 @@ entries:
   mariadb:
   - apiVersion: v1
     appVersion: 10.3.17
-    created: "2019-10-04T13:49:38.666053387Z"
+    created: "2019-10-04T14:04:20.677329781Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software. Highly
@@ -105,7 +105,7 @@ entries:
   mongodb:
   - apiVersion: v1
     appVersion: 4.0.12
-    created: "2019-10-04T13:49:38.667960135Z"
+    created: "2019-10-04T14:04:20.678918728Z"
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
       applications.
@@ -132,7 +132,7 @@ entries:
   mvp-product:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-10-04T13:49:38.668963847Z"
+    created: "2019-10-04T14:04:20.679716983Z"
     description: MVP product chart
     digest: 865679ae402c12baea0d4a17d5da88ac7e5182b236ae05defcc4e25f34852581
     engine: gotpl
@@ -157,9 +157,9 @@ entries:
   mvp-sample-front:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-10-04T13:49:38.669585237Z"
+    created: "2019-10-04T14:04:20.680214285Z"
     description: MVP sample front
-    digest: e627704013d929625b88d6195fd93211fd3df8c2c0bcfe63abab63a30c6653e7
+    digest: 5c3985bcc24b1737f2657f104af54bbf5e2dbbec2aec80291aae58e46f7ca038
     engine: gotpl
     home: https://github.com/happycloudpak/helm-charts
     icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
@@ -183,7 +183,7 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-10-04T13:49:38.671677754Z"
+    created: "2019-10-04T14:04:20.682203403Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -209,11 +209,11 @@ entries:
   starthelm:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-04T13:49:38.67200185Z"
+    created: "2019-10-04T14:04:20.682520767Z"
     description: Basic sample chart
     digest: d715448d79d847cff94fa9851eb4443ed1595d28c5251be0aedd7a6c39bdef50
     name: starthelm
     urls:
     - starthelm-0.1.0.tgz
     version: 0.1.0
-generated: "2019-10-04T13:49:38.65939486Z"
+generated: "2019-10-04T14:04:20.671480763Z"
