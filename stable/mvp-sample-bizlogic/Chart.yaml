@@ -8,7 +8,7 @@ keywords:
 - mvp
 - sample
 - bizlogic
-kubeVersion: '>=1.15.3'
+#kubeVersion: '>=1.15.3'
 maintainers:
 - email: hiondal@gmail.com
   name: HaeKyung Lee

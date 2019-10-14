@@ -7,7 +7,7 @@ icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
 keywords:
 - login
 - login-api
-kubeVersion: '>=1.15.3'
+#kubeVersion: '>=1.15.3'
 maintainers:
 - email: hiondal@gmail.com
   name: HaeKyung Lee
