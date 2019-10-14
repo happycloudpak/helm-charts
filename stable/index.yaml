@@ -1,0 +1,181 @@
+apiVersion: v1
+entries:
+  db-mongodb:
+  - apiVersion: v1
+    appVersion: 4.0.12
+    created: 2019-10-14T08:36:56.323168785Z
+    description: NoSQL document-oriented database that stores JSON-like documents
+      with dynamic schemas, simplifying the integration of data in content-driven
+      applications. changes- mongodb-setup-scripts.yaml-change script by hklee
+    digest: 899b387bc135e350d7a6e7dfb4372b7412d8159c015e73ef841a425dc5d8c284
+    engine: gotpl
+    home: https://mongodb.org
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - email: happycloudpak@gmail.com
+      name: happycloudpak
+    name: db-mongodb
+    sources:
+    - https://happycloudpak.github.io/helm-charts/stable
+    urls:
+    - db-mongodb-1.0.0.tgz
+    version: 1.0.0
+  db-mysql:
+  - apiVersion: v1
+    appVersion: latest
+    created: 2019-10-14T08:36:56.323606526Z
+    description: MySQL chart for bbs
+    digest: a920e72e34329b90117af0262e6f062c6598b18a57375de30e0c7d8969f4e91b
+    engine: gotpl
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - mvp
+    - mysql
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: hiondal@gmail.com
+      name: HaeKyung Lee
+    - email: happycloudpak@gmail.com
+      name: HappyCloudPak
+    name: db-mysql
+    sources:
+    - https://github.com/happycloudpak/helm-charts/tree/master/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - db-mysql-1.0.0.tgz
+    version: 1.0.0
+  hello-helm:
+  - apiVersion: v1
+    appVersion: latest
+    created: 2019-10-14T08:36:56.324066914Z
+    description: Sample helm chart for study
+    digest: 611fc719c65801a47e13e9ed74967691ac0392fca426d186c3a22753423c2449
+    engine: gotpl
+    home: https://github.com/happycloudpak/helm-charts
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - hello
+    - sample
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: hiondal@gmail.com
+      name: HaeKyung Lee
+    - email: happycloudpak@gmail.com
+      name: HappyCloudPak
+    name: hello-helm
+    sources:
+    - https://github.com/happycloudpak/helm-charts/tree/master/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - hello-helm-0.1.0.tgz
+    version: 0.1.0
+  login-api:
+  - apiVersion: v1
+    appVersion: latest
+    created: 2019-10-14T08:36:56.325803648Z
+    description: login-api chart
+    digest: 7af0b9e4f5c0020cf859919c6619d6945791429e61a9d74e280677e9e7435ab1
+    engine: gotpl
+    home: https://github.com/happycloudpak/helm-charts
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - login
+    - login-api
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: hiondal@gmail.com
+      name: HaeKyung Lee
+    - email: happycloudpak@gmail.com
+      name: HappyCloudPak
+    name: login-api
+    sources:
+    - https://happycloudpak.github.io/helm-charts/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - login-api-0.1.0.tgz
+    version: 0.1.0
+  mvp-product:
+  - apiVersion: v1
+    appVersion: latest
+    created: 2019-10-14T08:36:56.326504806Z
+    description: MVP product chart
+    digest: d175a33858f81deb20bf634e722ea26db37dba136630bacc0e9521a29d9f8caf
+    engine: gotpl
+    home: https://github.com/happycloudpak/helm-charts
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - mvp
+    - product
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: hiondal@gmail.com
+      name: HaeKyung Lee
+    - email: happycloudpak@gmail.com
+      name: HappyCloudPak
+    name: mvp-product
+    sources:
+    - https://happycloudpak.github.io/helm-charts/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - mvp-product-0.1.0.tgz
+    version: 0.1.0
+  mvp-sample-bizlogic:
+  - apiVersion: v1
+    appVersion: latest
+    created: 2019-10-14T08:36:56.327239376Z
+    description: MVP sample bizlogic
+    digest: b7de48b21993ddbbc8cdd053e0b649801975102877175fe61a528940e73e2856
+    engine: gotpl
+    home: https://github.com/happycloudpak/helm-charts
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - mvp
+    - sample
+    - bizlogic
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: hiondal@gmail.com
+      name: HaeKyung Lee
+    - email: happycloudpak@gmail.com
+      name: HappyCloudPak
+    name: mvp-sample-bizlogic
+    sources:
+    - https://github.com/happycloudpak/helm-charts/tree/master/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - mvp-sample-bizlogic-0.1.0.tgz
+    version: 0.1.0
+  mvp-sample-front:
+  - apiVersion: v1
+    appVersion: latest
+    created: 2019-10-14T08:36:56.327682002Z
+    description: MVP sample front
+    digest: 3b9c52b350f59cf5be1db743c73088d7bc27390bdff0b9cb58f89d20f2e7b09c
+    engine: gotpl
+    home: https://github.com/happycloudpak/helm-charts
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - mvp
+    - sample
+    - front
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: hiondal@gmail.com
+      name: HaeKyung Lee
+    - email: happycloudpak@gmail.com
+      name: HappyCloudPak
+    name: mvp-sample-front
+    sources:
+    - https://github.com/happycloudpak/helm-charts/tree/master/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - mvp-sample-front-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-10-14T08:36:56.321653589Z
