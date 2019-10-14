@@ -1,0 +1,6 @@
+dependencies:
+- name: db-mysql
+  repository: https://happycloudpak.github.io/helm-charts/stable
+  version: 0.1.0
+digest: sha256:c1f9c367708c4a61b1bd3ed91aa1add755397cf8fb12b5316a0f6850e737bee5
+generated: "2019-09-20T20:33:46.976581633Z"

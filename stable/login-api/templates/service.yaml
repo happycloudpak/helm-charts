@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "login-api.fullname" . }}
+  labels:
+{{ include "login-api.labels" . | indent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+{{- if .Values.service.externalIPs }} 
+  externalIPs: {{ toYaml .Values.service.externalIPs | nindent 4 }}
+{{- end }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app.kubernetes.io/name: {{ include "login-api.name" . }}
+    app.kubernetes.io/instance: {{ .Release.Name }}

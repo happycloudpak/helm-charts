@@ -1,0 +1,20 @@
+apiVersion: v1
+appVersion: latest
+description: login-api chart
+engine: gotpl
+home: https://github.com/happycloudpak/helm-charts
+icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+keywords:
+- login
+- login-api
+kubeVersion: '>=1.15.3'
+maintainers:
+- email: hiondal@gmail.com
+  name: HaeKyung Lee
+- email: happycloudpak@gmail.com
+  name: HappyCloudPak
+name: login-api
+sources:
+- https://happycloudpak.github.io/helm-charts/stable
+tillerVersion: '>2.0.0'
+version: 0.1.0
