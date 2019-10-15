@@ -1,6 +1,0 @@
-dependencies:
-- name: db-mongodb
-  repository: https://happycloudpak.github.io/helm-charts/stable
-  version: 1.0.0
-digest: sha256:88eac75ca878c33cce6e42413e7e56e016fac755790c5920af840e9379090f83
-generated: "2019-10-04T15:36:53.37974514Z"

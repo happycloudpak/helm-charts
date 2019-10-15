@@ -1,4 +1,0 @@
-dependencies:
-  - name: db-mysql
-    version: 0.1.0
-    repository: https://happycloudpak.github.io/helm-charts/stable
