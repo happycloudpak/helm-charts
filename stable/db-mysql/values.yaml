@@ -20,14 +20,14 @@ containerPort:
 service:
   type: ClusterIP
   port: 3306
-  externalIPs:  [ "169.56.164.245", "169.56.164.244", "169.56.164.254" ]
+  externalIPs:  [ "169.56.164.37", "169.56.164.41" ]
 
 ingress:
   enabled: false
 
 volume:
   server: 169.56.164.243
-  path: /nfs/db-mysql
+  path: /nfs/mvp/db-mysql
   capacity: 10Gi
   accessMode: ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
