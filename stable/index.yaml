@@ -3,7 +3,7 @@ entries:
   db-mongodb:
   - apiVersion: v1
     appVersion: 4.0.12
-    created: 2019-10-15T14:58:04.622119938Z
+    created: 2019-10-15T15:29:19.058032913Z
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
       applications. changes- mongodb-setup-scripts.yaml-change script by hklee
@@ -25,12 +25,12 @@ entries:
     sources:
     - https://happycloudpak.github.io/helm-charts/stable
     urls:
-    - db-mongodb-1.0.0.tgz
+    - https://happycloudpak.github.io/helm-charts/stable/db-mongodb-1.0.0.tgz
     version: 1.0.0
   db-mysql:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-15T14:58:04.622564972Z
+    created: 2019-10-15T15:29:19.05891874Z
     description: MySQL chart for bbs
     digest: e3b13d1ed3ab392ff2590b9c9f75b8879a169e52b77a2fdab0b5b804aa21baf4
     engine: gotpl
@@ -48,12 +48,12 @@ entries:
     - https://github.com/happycloudpak/helm-charts/tree/master/stable
     tillerVersion: '>2.0.0'
     urls:
-    - db-mysql-1.0.0.tgz
+    - https://happycloudpak.github.io/helm-charts/stable/db-mysql-1.0.0.tgz
     version: 1.0.0
   hello-helm:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-15T14:58:04.62303638Z
+    created: 2019-10-15T15:29:19.059729179Z
     description: Sample helm chart for study
     digest: 611fc719c65801a47e13e9ed74967691ac0392fca426d186c3a22753423c2449
     engine: gotpl
@@ -73,12 +73,12 @@ entries:
     - https://github.com/happycloudpak/helm-charts/tree/master/stable
     tillerVersion: '>2.0.0'
     urls:
-    - hello-helm-0.1.0.tgz
+    - https://happycloudpak.github.io/helm-charts/stable/hello-helm-0.1.0.tgz
     version: 0.1.0
   login-api:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-15T14:58:04.624758395Z
+    created: 2019-10-15T15:29:19.062912286Z
     description: login-api chart
     digest: ee0881df66518fbf831f2e8ed387d0a14da50094049690505b3c3648f2fcd25d
     engine: gotpl
@@ -97,12 +97,12 @@ entries:
     - https://happycloudpak.github.io/helm-charts/stable
     tillerVersion: '>2.0.0'
     urls:
-    - login-api-0.1.0.tgz
+    - https://happycloudpak.github.io/helm-charts/stable/login-api-0.1.0.tgz
     version: 0.1.0
   mvp-product:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-15T14:58:04.625487973Z
+    created: 2019-10-15T15:29:19.064706158Z
     description: MVP product chart
     digest: d175a33858f81deb20bf634e722ea26db37dba136630bacc0e9521a29d9f8caf
     engine: gotpl
@@ -122,12 +122,12 @@ entries:
     - https://happycloudpak.github.io/helm-charts/stable
     tillerVersion: '>2.0.0'
     urls:
-    - mvp-product-0.1.0.tgz
+    - https://happycloudpak.github.io/helm-charts/stable/mvp-product-0.1.0.tgz
     version: 0.1.0
   mvp-sample-bizlogic:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-15T14:58:04.626468419Z
+    created: 2019-10-15T15:29:19.06694184Z
     description: MVP sample bizlogic
     digest: c22c554034abeff48a535aa732325f38bef6f0b9dbe775ed04807ad5d503d23d
     engine: gotpl
@@ -147,12 +147,12 @@ entries:
     - https://github.com/happycloudpak/helm-charts/tree/master/stable
     tillerVersion: '>2.0.0'
     urls:
-    - mvp-sample-bizlogic-0.1.0.tgz
+    - https://happycloudpak.github.io/helm-charts/stable/mvp-sample-bizlogic-0.1.0.tgz
     version: 0.1.0
   mvp-sample-front:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-15T14:58:04.62695115Z
+    created: 2019-10-15T15:29:19.067916589Z
     description: MVP sample front
     digest: 95707fdfb55fba6517e9749f81e36c8402532a2e9bed14da5694f14596c25097
     engine: gotpl
@@ -172,6 +172,6 @@ entries:
     - https://github.com/happycloudpak/helm-charts/tree/master/stable
     tillerVersion: '>2.0.0'
     urls:
-    - mvp-sample-front-0.1.0.tgz
+    - https://happycloudpak.github.io/helm-charts/stable/mvp-sample-front-0.1.0.tgz
     version: 0.1.0
-generated: 2019-10-15T14:58:04.620553873Z
+generated: 2019-10-15T15:29:19.054758558Z
