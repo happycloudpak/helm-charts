@@ -18,7 +18,7 @@ containerPort:
   port: 3306
 
 service:
-  type: ClusterIP
+  type: NodePort
   port: 3306
   nodePort: 32767
   externalIPs:  [ "169.56.164.37", "169.56.164.41" ]

@@ -7,6 +7,11 @@ metadata:
 spec:
   type: {{ .Values.service.type }}
   externalIPs: {{ toYaml .Values.service.externalIPs | nindent 4 }}
+  {{- if eq "NodePort" .Values.service.type -}}
+  {{- with .Values.service.nodePort }}
+  nodePort: {{ . }}
+  {{- end }}
+  {{- end }}
   ports:
     - port: {{ .Values.service.port }}
       targetPort: {{ .Values.service.port }}
