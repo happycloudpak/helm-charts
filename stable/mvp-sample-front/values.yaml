@@ -1,0 +1,48 @@
+replicaCount: 1
+
+image:
+  repository: happycloudpak/mvp-sample-front
+  tag: latest
+  pullPolicy: Always
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+env:
+  AUTH_API_URI: http://login-api.169.56.164.246.nip.io
+  API_PRODUCT_URI: http://mvp-sample-bizlogic.169.56.164.246.nip.io
+  JWT_SECRET: MySecretKey
+  PORT: 8090
+
+service:
+  type: ClusterIP
+  #externalIPs:  [ "169.56.164.246", "169.56.164.249", "169.56.164.250" ]
+
+ingress:
+  enabled: true
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  hosts:
+    - host: mvp-sample-front.169.56.164.246.nip.io
+      paths: [ "/" ]
+
+  tls: []
+  #  - secretName: chart-example-tls
+  #    hosts:
+  #      - chart-example.local
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
