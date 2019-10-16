@@ -3,7 +3,7 @@ entries:
   db-mongodb:
   - apiVersion: v1
     appVersion: 4.0.12
-    created: 2019-10-16T10:54:09.075355425Z
+    created: 2019-10-16T12:51:36.763902057Z
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
       applications. changes- mongodb-setup-scripts.yaml-change script by hklee
@@ -30,7 +30,7 @@ entries:
   db-mysql:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-16T10:54:09.076546476Z
+    created: 2019-10-16T12:51:36.764329956Z
     description: MySQL chart for bbs
     digest: e3b13d1ed3ab392ff2590b9c9f75b8879a169e52b77a2fdab0b5b804aa21baf4
     engine: gotpl
@@ -53,7 +53,7 @@ entries:
   hello-helm:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-16T10:54:09.077033841Z
+    created: 2019-10-16T12:51:36.764806394Z
     description: Sample helm chart for study
     digest: 611fc719c65801a47e13e9ed74967691ac0392fca426d186c3a22753423c2449
     engine: gotpl
@@ -78,7 +78,7 @@ entries:
   login-api:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-16T10:54:09.078972228Z
+    created: 2019-10-16T12:51:36.766592045Z
     description: login-api chart
     digest: ee0881df66518fbf831f2e8ed387d0a14da50094049690505b3c3648f2fcd25d
     engine: gotpl
@@ -102,7 +102,7 @@ entries:
   mvp-product:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-16T10:54:09.079782798Z
+    created: 2019-10-16T12:51:36.767355613Z
     description: MVP product chart
     digest: d175a33858f81deb20bf634e722ea26db37dba136630bacc0e9521a29d9f8caf
     engine: gotpl
@@ -127,7 +127,7 @@ entries:
   mvp-sample-bizlogic:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-16T10:54:09.080750574Z
+    created: 2019-10-16T12:51:36.768344614Z
     description: MVP sample bizlogic
     digest: c22c554034abeff48a535aa732325f38bef6f0b9dbe775ed04807ad5d503d23d
     engine: gotpl
@@ -152,7 +152,7 @@ entries:
   mvp-sample-front:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-16T10:54:09.081175501Z
+    created: 2019-10-16T12:51:36.768852103Z
     description: MVP sample front
     digest: 95707fdfb55fba6517e9749f81e36c8402532a2e9bed14da5694f14596c25097
     engine: gotpl
@@ -177,9 +177,9 @@ entries:
   sample-service6:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-16T10:54:09.08157493Z
+    created: 2019-10-16T12:51:36.769426506Z
     description: MVP sample service
-    digest: 81b4519bdf6bbc5e22957b725d9d2f6d64022dd7d72b6cbe49a6710d84eb005c
+    digest: 60c2210f2f4aef875d0e2e88376cbf8c6ba9d2b82172d9e5eed9ac4f00bc57f5
     engine: gotpl
     home: https://github.com/happycloudpak/helm-charts
     icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
@@ -199,4 +199,4 @@ entries:
     urls:
     - sample-service6-0.1.0.tgz
     version: 0.1.0
-generated: 2019-10-16T10:54:09.072910687Z
+generated: 2019-10-16T12:51:36.762378531Z
