@@ -3,10 +3,9 @@ entries:
   dashboard:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-21T04:20:44.974197287Z
+    created: "2023-12-04T08:49:39.890104661-06:00"
     description: MVP sample service
     digest: 918d6b41147b2854600d099214e9c6312c920b796698ce29576a383e29b8ef51
-    engine: gotpl
     home: https://github.com/happycloudpak/helm-charts
     icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
     keywords:
@@ -21,19 +20,17 @@ entries:
     name: dashboard
     sources:
     - https://github.com/happycloudpak/helm-charts/tree/master/stable
-    tillerVersion: '>2.0.0'
     urls:
     - dashboard-0.1.0.tgz
     version: 0.1.0
   db-mongodb:
   - apiVersion: v1
     appVersion: 4.0.12
-    created: 2019-10-21T04:20:44.976273541Z
+    created: "2023-12-04T08:49:39.891800925-06:00"
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
       applications. changes- mongodb-setup-scripts.yaml-change script by hklee
     digest: 899b387bc135e350d7a6e7dfb4372b7412d8159c015e73ef841a425dc5d8c284
-    engine: gotpl
     home: https://mongodb.org
     icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
     keywords:
@@ -55,10 +52,9 @@ entries:
   db-mysql:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-21T04:20:44.976732092Z
+    created: "2023-12-04T08:49:39.892320513-06:00"
     description: MySQL chart for bbs
     digest: e3b13d1ed3ab392ff2590b9c9f75b8879a169e52b77a2fdab0b5b804aa21baf4
-    engine: gotpl
     icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
     keywords:
     - mvp
@@ -71,17 +67,15 @@ entries:
     name: db-mysql
     sources:
     - https://github.com/happycloudpak/helm-charts/tree/master/stable
-    tillerVersion: '>2.0.0'
     urls:
     - db-mysql-1.0.0.tgz
     version: 1.0.0
   hello-helm:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-21T04:20:44.97719684Z
+    created: "2023-12-04T08:49:39.892869638-06:00"
     description: Sample helm chart for study
-    digest: 611fc719c65801a47e13e9ed74967691ac0392fca426d186c3a22753423c2449
-    engine: gotpl
+    digest: 90792c3315e05e7f292fbe341e6b80ccbab508ed311860298cc2cf96726db6fd
     home: https://github.com/happycloudpak/helm-charts
     icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
     keywords:
@@ -96,17 +90,20 @@ entries:
     name: hello-helm
     sources:
     - https://github.com/happycloudpak/helm-charts/tree/master/stable
-    tillerVersion: '>2.0.0'
     urls:
     - hello-helm-0.1.0.tgz
     version: 0.1.0
   login-api:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-21T04:20:44.979045655Z
+    created: "2023-12-04T08:49:39.896586513-06:00"
+    dependencies:
+    - condition: mongodb.enabled
+      name: db-mongodb
+      repository: https://happycloudpak.github.io/helm-charts/stable
+      version: 1.0.0
     description: login-api chart
     digest: ee0881df66518fbf831f2e8ed387d0a14da50094049690505b3c3648f2fcd25d
-    engine: gotpl
     home: https://github.com/happycloudpak/helm-charts
     icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
     keywords:
@@ -120,17 +117,19 @@ entries:
     name: login-api
     sources:
     - https://happycloudpak.github.io/helm-charts/stable
-    tillerVersion: '>2.0.0'
     urls:
     - login-api-0.1.0.tgz
     version: 0.1.0
   mvp-product:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-21T04:20:44.979761161Z
+    created: "2023-12-04T08:49:39.897614468-06:00"
+    dependencies:
+    - name: db-mysql
+      repository: https://happycloudpak.github.io/helm-charts/stable
+      version: 0.1.0
     description: MVP product chart
     digest: d175a33858f81deb20bf634e722ea26db37dba136630bacc0e9521a29d9f8caf
-    engine: gotpl
     home: https://github.com/happycloudpak/helm-charts
     icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
     keywords:
@@ -145,17 +144,19 @@ entries:
     name: mvp-product
     sources:
     - https://happycloudpak.github.io/helm-charts/stable
-    tillerVersion: '>2.0.0'
     urls:
     - mvp-product-0.1.0.tgz
     version: 0.1.0
   mvp-sample-bizlogic:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-21T04:20:44.980739474Z
+    created: "2023-12-04T08:49:39.898919004-06:00"
+    dependencies:
+    - name: db-mysql
+      repository: https://happycloudpak.github.io/helm-charts/stable
+      version: 1.0.0
     description: MVP sample bizlogic
     digest: c22c554034abeff48a535aa732325f38bef6f0b9dbe775ed04807ad5d503d23d
-    engine: gotpl
     home: https://github.com/happycloudpak/helm-charts
     icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
     keywords:
@@ -170,17 +171,15 @@ entries:
     name: mvp-sample-bizlogic
     sources:
     - https://github.com/happycloudpak/helm-charts/tree/master/stable
-    tillerVersion: '>2.0.0'
     urls:
     - mvp-sample-bizlogic-0.1.0.tgz
     version: 0.1.0
   mvp-sample-front:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-21T04:20:44.981194452Z
+    created: "2023-12-04T08:49:39.899427284-06:00"
     description: MVP sample front
     digest: 95707fdfb55fba6517e9749f81e36c8402532a2e9bed14da5694f14596c25097
-    engine: gotpl
     home: https://github.com/happycloudpak/helm-charts
     icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
     keywords:
@@ -195,17 +194,15 @@ entries:
     name: mvp-sample-front
     sources:
     - https://github.com/happycloudpak/helm-charts/tree/master/stable
-    tillerVersion: '>2.0.0'
     urls:
     - mvp-sample-front-0.1.0.tgz
     version: 0.1.0
   sample-service6:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-10-21T04:20:44.981630984Z
+    created: "2023-12-04T08:49:39.899893395-06:00"
     description: MVP sample service
     digest: 60c2210f2f4aef875d0e2e88376cbf8c6ba9d2b82172d9e5eed9ac4f00bc57f5
-    engine: gotpl
     home: https://github.com/happycloudpak/helm-charts
     icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
     keywords:
@@ -220,8 +217,7 @@ entries:
     name: sample-service6
     sources:
     - https://github.com/happycloudpak/helm-charts/tree/master/stable
-    tillerVersion: '>2.0.0'
     urls:
     - sample-service6-0.1.0.tgz
     version: 0.1.0
-generated: 2019-10-21T04:20:44.973190051Z
+generated: "2023-12-04T08:49:39.889293452-06:00"
